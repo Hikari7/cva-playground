@@ -5,26 +5,26 @@ import { cva, type VariantProps } from 'class-variance-authority';
 import cn from 'classnames';
 
 const buttonVariants = cva(
-  'inline-flex items-center justify-center whitespace-nowrap rounded-md text-sm font-medium transition-colors focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-offset-2 disabled:pointer-events-none disabled:opacity-50',
+  'inline-flex items-center justify-center whitespace-nowrap text-sm font-medium text-black transition-colors focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-offset-2 disabled:pointer-events-none  disabled:opacity-50',
   {
     variants: {
       variant: {
         default:
-          'bg-primary hover:bg-primary/80',
+          'rounded-md bg-primary hover:bg-primary-action',
         outline:
-          'border border-primary text-primary hover:bg-primary/80 hover:text-white',
+          'rounded-md border border-primary text-primary hover:bg-primary/80 hover:text-white',
         secondary:
-          'bg-secondary hover:bg-secondary/80',
+          'rounded-md bg-secondary hover:bg-secondary-action',
         rounded:
-          'rounded-full bg-primary hover:bg-primary/80',
-        link: 'text-primary underline-offset-4 hover:underline',
+          'rounded-full bg-primary hover:bg-primary-action',
+        link: 'rounded-md text-primary underline-offset-4 hover:underline',
       },
       size: {
         default: 'h-10 px-4',
         xs: 'h-6 px-2 text-xs font-light',
-        sm: 'h-8 rounded-md px-3 text-sm',
-        lg: 'h-12 rounded-md px-6 font-medium',
-        xl: 'h-14 rounded-md px-8 font-medium',
+        sm: 'h-8  px-3 text-sm',
+        lg: 'h-12  px-6 font-medium',
+        xl: 'h-14  px-8 font-medium',
       },
     },
     defaultVariants: {

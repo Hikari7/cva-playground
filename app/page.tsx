@@ -4,7 +4,7 @@ export default function Home() {
   return (
     <main className='min-h-screen gap-6 bg-[#18181A] p-24'>
       <div className='flex flex-col items-center gap-10'>
-        <div className='flex items-end gap-3 text-[#3E3E3E]'>
+        <div className='flex items-end gap-3'>
           <Button size='xs'>Button</Button>
           <Button size='sm'>Button</Button>
           <Button>Button</Button>
@@ -72,6 +72,13 @@ export default function Home() {
             Button
           </Button>
         </div>
+
+        {/* <div className='mx-auto flex flex-col items-center justify-center gap-2'>
+          <p className='text-white'>It&apos;s custmizable!</p>
+          <Button size='xl' className='bg-[#bada55] hover:bg-[#f3ffbd]'>
+            Button
+          </Button>
+        </div> */}
       </div>
     </main>
   );

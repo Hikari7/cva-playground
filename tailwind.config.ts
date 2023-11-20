@@ -11,23 +11,14 @@ const config: Config = {
       colors: {
         primary: {
           DEFAULT: '#DCA0A2',
-          light: '#fcc8c2',
-          dark: '#a36e7b',
           action: '#d98076',
         },
         secondary: {
           DEFAULT: '#FBF6F4',
-          light: '#FBF6F4',
-          dark: '#246475',
-          action: '#215e6e',
-        },
-        tertiary: {
-          DEFAULT: '#DADADA',
-          dark: '#bababa',
-          action: '#aeaeae',
+          action: '#DDCEC0',
         },
         black: {
-          DEFAULT: '#231815',
+          DEFAULT: '#3E3E3E',
         },
       },
     },
