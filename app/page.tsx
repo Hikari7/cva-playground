@@ -2,8 +2,8 @@ import { Button } from './component/Button';
 
 export default function Home() {
   return (
-    <main className='p-24 gap-6 bg-[#18181A] min-h-screen'>
-      <div className='gap-10 flex flex-col items-center'>
+    <main className='min-h-screen gap-6 bg-[#18181A] p-24'>
+      <div className='flex flex-col items-center gap-10'>
         <div className='flex items-end gap-3 text-[#3E3E3E]'>
           <Button size='xs'>Button</Button>
           <Button size='sm'>Button</Button>

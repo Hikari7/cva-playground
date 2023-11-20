@@ -5,23 +5,23 @@ import { cva, type VariantProps } from 'class-variance-authority';
 import cn from 'classnames';
 
 const buttonVariants = cva(
-  'inline-flex items-center justify-center whitespace-nowrap rounded-md text-sm font-medium ring-offset-background transition-colors focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 disabled:pointer-events-none disabled:opacity-50',
+  'inline-flex items-center justify-center whitespace-nowrap rounded-md text-sm font-medium transition-colors focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-offset-2 disabled:pointer-events-none disabled:opacity-50',
   {
     variants: {
       variant: {
         default:
-          'bg-primary hover:bg-accent hover:text-accent-foreground hover:bg-primary/80',
+          'bg-primary hover:bg-primary/80',
         outline:
           'border border-primary text-primary hover:bg-primary/80 hover:text-white',
         secondary:
-          'bg-secondary text-secondary-foreground hover:bg-secondary/80',
+          'bg-secondary hover:bg-secondary/80',
         rounded:
-          'bg-primary hover:bg-accent hover:text-accent-foreground hover:bg-primary/80 rounded-full',
+          'rounded-full bg-primary hover:bg-primary/80',
         link: 'text-primary underline-offset-4 hover:underline',
       },
       size: {
-        default: 'h-10 px-4 font-base',
-        xs: 'text-xs h-6 min-w-6 px-2 font-light',
+        default: 'h-10 px-4',
+        xs: 'h-6 px-2 text-xs font-light',
         sm: 'h-8 rounded-md px-3 text-sm',
         lg: 'h-12 rounded-md px-6 font-medium',
         xl: 'h-14 rounded-md px-8 font-medium',
