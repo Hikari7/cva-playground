@@ -13,72 +13,72 @@ export default function Home() {
         </div>
 
         <div className='flex items-end gap-3'>
-          <Button size='xs' variant='secondary'>
+          <Button size='xs' intent='secondary'>
             Button
           </Button>
-          <Button size='sm' variant='secondary'>
+          <Button size='sm' intent='secondary'>
             Button
           </Button>
-          <Button variant='secondary'>Button</Button>
-          <Button size='lg' variant='secondary'>
+          <Button intent='secondary'>Button</Button>
+          <Button size='lg' intent='secondary'>
             Button
           </Button>
-          <Button size='xl' variant='secondary'>
-            Button
-          </Button>
-        </div>
-        <div className='flex items-end gap-3'>
-          <Button size='xs' variant='outline'>
-            Button
-          </Button>
-          <Button size='sm' variant='outline'>
-            Button
-          </Button>
-          <Button variant='outline'>Button</Button>
-          <Button size='lg' variant='outline'>
-            Button
-          </Button>
-          <Button size='xl' variant='outline'>
+          <Button size='xl' intent='secondary'>
             Button
           </Button>
         </div>
         <div className='flex items-end gap-3'>
-          <Button size='xs' variant='rounded'>
+          <Button size='xs' intent='outline'>
             Button
           </Button>
-          <Button size='sm' variant='rounded'>
+          <Button size='sm' intent='outline'>
             Button
           </Button>
-          <Button variant='rounded'>Button</Button>
-          <Button size='lg' variant='rounded'>
+          <Button intent='outline'>Button</Button>
+          <Button size='lg' intent='outline'>
             Button
           </Button>
-          <Button size='xl' variant='rounded'>
+          <Button size='xl' intent='outline'>
             Button
           </Button>
         </div>
         <div className='flex items-end gap-3'>
-          <Button size='xs' variant='link'>
+          <Button size='xs' intent='rounded'>
             Button
           </Button>
-          <Button size='sm' variant='link'>
+          <Button size='sm' intent='rounded'>
             Button
           </Button>
-          <Button variant='link'>Button</Button>
-          <Button size='lg' variant='link'>
+          <Button intent='rounded'>Button</Button>
+          <Button size='lg' intent='rounded'>
             Button
           </Button>
-          <Button size='xl' variant='link'>
+          <Button size='xl' intent='rounded'>
+            Button
+          </Button>
+        </div>
+        <div className='flex items-end gap-3'>
+          <Button size='xs' intent='link'>
+            Button
+          </Button>
+          <Button size='sm' intent='link'>
+            Button
+          </Button>
+          <Button intent='link'>Button</Button>
+          <Button size='lg' intent='link'>
+            Button
+          </Button>
+          <Button size='xl' intent='link'>
             Button
           </Button>
         </div>
 
-        {/* <div className='mx-auto flex flex-col items-center justify-center gap-2'>
-          <p className='text-white'>It&apos;s custmizable!</p>
-          <Button size='xl' className='bg-[#bada55] hover:bg-[#f3ffbd]'>
+        <div className='mx-auto flex flex-col items-center justify-center gap-2'>
+          <p className='text-white'>It&apos;s customizable!</p>
+          <Button size='sm' className='bg-[#bada55] hover:bg-[#f3ffbd]'>
             Button
           </Button>
-        </div> */}
+        </div>
       </div>
     </main>
   );
